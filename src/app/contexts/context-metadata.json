@@ -1,25 +1,4 @@
 {
-  "NetworkContext": {
-    "name": "NetworkContext",
-    "description": "Provides NetworkContext functionality",
-    "annotations": [
-      {
-        "key": "isConnected",
-        "type": "boolean",
-        "description": "true if the device is connected to the internet, false otherwise"
-      },
-      {
-        "key": "connectionType",
-        "type": "string",
-        "description": "the type of connection the device is using (wifi, cellular, etc.)"
-      },
-      {
-        "key": "networkDetails",
-        "type": "NetInfoState",
-        "description": "the details of the network connection"
-      }
-    ]
-  },
   "I18nContext": {
     "name": "I18nContext",
     "description": "Provides I18nContext functionality",
@@ -38,6 +17,27 @@
         "key": "t",
         "type": "function",
         "description": "returns the translated string for a key"
+      }
+    ]
+  },
+  "NetworkContext": {
+    "name": "NetworkContext",
+    "description": "Provides NetworkContext functionality",
+    "annotations": [
+      {
+        "key": "isConnected",
+        "type": "boolean",
+        "description": "true if the device is connected to the internet, false otherwise"
+      },
+      {
+        "key": "connectionType",
+        "type": "string",
+        "description": "the type of connection the device is using (wifi, cellular, etc.)"
+      },
+      {
+        "key": "networkDetails",
+        "type": "NetInfoState",
+        "description": "the details of the network connection"
       }
     ]
   }

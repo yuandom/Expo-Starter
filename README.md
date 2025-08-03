@@ -102,27 +102,25 @@ npm start
 ## 🏁 Getting Started
 
 ```sh
-# Clone the repository
-git clone https://github.com/applab-design/app-template.git
 
 # Install dependencies
-npm install
+pnpm install
 
 # Start the development server
-npm start
+pnpm start
 
 # Run on iOS simulator
-npm run ios
+pnpm run ios
 
 # Run on Android emulator
-npm run android
+pnpm run android
 ```
 
 ## 📦 Available Scripts
 
-- `npm start`: Start the Expo development server (generates context metadata)
-- `npm run ios`: Run on iOS simulator
-- `npm run android`: Run on Android emulator
+- `pnpm start`: Start the Expo development server (generates context metadata)
+- `pnpm run ios`: Run on iOS simulator
+- `pnpm run android`: Run on Android emulator
 
 ## 📝 Contributing
 

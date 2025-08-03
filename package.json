@@ -1,5 +1,5 @@
 {
-  "name": "expo-template-applab",
+  "name": "expo-starter",
   "version": "1.1.0",
   "main": "expo-router/entry",
   "scripts": {
@@ -37,7 +37,8 @@
     "react-native-screens": "~4.11.1",
     "react-native-svg": "15.11.2",
     "react-native-web": "^0.20.0",
-    "tailwindcss": "^3.4.0"
+    "tailwindcss": "^3.4.0",
+    "undici": "5.25.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
@@ -52,7 +53,9 @@
     "nativewind",
     "react-native"
   ],
-  "homepage": "https://github.com/Valentine8342/Expo-Starter-Kit",
-  "author": "Mauro Garcia <contact@applab.design>",
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=8"
+  },
   "license": "MIT"
 }
